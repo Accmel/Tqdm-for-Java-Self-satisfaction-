@@ -1,0 +1,36 @@
+Information of this library "Tqdm".
+
+How to use-----
+  You can use this library to visualize the for-loop and while-loop progress.
+
+  Please import boot.Tqdm .
+  Make Instance of Tqdm.
+    (The argument for constructor is All-Loop-Num.)
+    !!Please make instance "just before" loop!!
+  Call Tqdm.tqdm-Method for each loop.
+
+Example programing-----
+  please check test/Test.java
+
+
+Tree of this library-----
+    C:.(tqdm)
+    │  info.txt
+    │
+    ├─boot
+    │      Tqdm.class
+    │      Tqdm.java
+    │
+    ├─logic
+    │      ProgressBar.class
+    │      ProgressBar.java
+    │      TimeFormat.class
+    │      TimeFormat.java
+    │
+    ├─out
+    │      Display.class
+    │      Display.java
+    │
+    └─test
+            Test.class
+            Test.java
